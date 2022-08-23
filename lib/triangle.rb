@@ -13,11 +13,11 @@ class Triangle
       validation
 
       if length1 == length2 && length2 == length3
-        return equilateral
+        :equilateral 
       elsif length1 == length2 || length2 == length3 || length1 == length3
-        return isosceles
+        :isosceles
       else
-        return scalene
+        :scalene
       end
     
   end 
